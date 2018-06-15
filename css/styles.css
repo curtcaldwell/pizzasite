@@ -1,55 +1,16 @@
-ul {
-  list-style: none;
-  margin-left: 0;
+
+#show-ticket {
+  display: none;
 }
 
-.jumbotron {
-  margin-top: 70px;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  background-position: 10% 40%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-shadow: black 0.1em 0.1em 0.1em, white 0.3em 0.3em 0.3em;
+.ticket {
+  cursor: pointer;
+  color: #0088cc;
 }
 
-.center-text {
-  text-align: center;
+.ticket:hover {
+  text-decoration: underline;
 }
-
-.thumbnail {
-  margin-bottom: 20px;
-}
-
-.pizza-sm {
-  width: 56%;
-  height: 56%;
-  display: block;
-  margin: 0 auto;
-}
-
-.pizza-md {
-  width: 77%;
-  height: 77%;
-  display: block;
-  margin: 0 auto;
-}
-
-.pizza-lg {
-  display: block;
-  margin: 0 auto;
-}
-
-.btn-margin {
-  margin-bottom: 20px;
-}
-body {
+body{
   background-color: rgba(0, 0, 0, 0.1);
 }
-
-.glyphicon {
-  margin-right: 5px;
-}
-
-#pizza-order-detail {
-  display: none;
