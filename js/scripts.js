@@ -1,31 +1,37 @@
-// Business Logic
 
-// Pizza Constructor
-function Pizza(size) {
-  this.pizzasize = size;
+//var size = 0;
+
+function Pizza(pizzasize) {
+  this.pizzasize = pizzasize ;
   this.pizzaingredients = [];
 };
 
 // Price Prototype Method
 Pizza.prototype.price = function() {
-  var price = 7;
-
   if (this.pizzasize === "Large") {
-    price *= 3;
-  } else if (this.pizzasize === "Medium") {
-    price *= 2;
+    return 21;
+  //  return size * 3;
+} else if (this.pizzasize === "Medium") {
+    return 14;
   } else {
-    price *= 1;
+    return 7;
   }
-
   if (this.pizzaingredients.length === 0) {
-    price *= 1;
-  } else {
-    price += this.pizzaingredients.length;
-  }
+  price *= 1;
+} else {
+  price += this.pizzaingredients.length;
+}
 
-  return price;
+return price;
 };
+
+function resetFields() {
+  $("select#pizza-size").val();
+  $("select#movie-name").val();
+
+
+
+}
 
 // Front-End User Logic
 $(document).ready(function() {
@@ -46,7 +52,9 @@ $(document).ready(function() {
       $(".pizza-size").text(newPizza.pizzasize);
       $(".pizza-ingredients").text(newPizza.pizzaingredients);
       $(".order-total").text(newPizza.price());
+      alert(inputtedPizzaSize);
 
     });
+    resetFields();
   });
 });

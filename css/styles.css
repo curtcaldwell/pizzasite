@@ -43,6 +43,9 @@ ul {
 .btn-margin {
   margin-bottom: 20px;
 }
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 .glyphicon {
   margin-right: 5px;
