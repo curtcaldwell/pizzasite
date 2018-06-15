@@ -1,1 +1,52 @@
+ul {
+  list-style: none;
+  margin-left: 0;
+}
 
+.jumbotron {
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-position: 10% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: black 0.1em 0.1em 0.1em, white 0.3em 0.3em 0.3em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.thumbnail {
+  margin-bottom: 20px;
+}
+
+.pizza-sm {
+  width: 56%;
+  height: 56%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pizza-md {
+  width: 77%;
+  height: 77%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pizza-lg {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-margin {
+  margin-bottom: 20px;
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
+
+#pizza-order-detail {
+  display: none;
