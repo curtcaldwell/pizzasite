@@ -1,15 +1,15 @@
-# _To Do List_
+# _Pizza Site_
 
-#### _The webpage app that will keep track of tasks by receiving inputted information. 06.11.18_
+#### _A webpage that will let you customize a pizza and tell you how much it will cost_
 
-#### By _**Eliot Charette and Curt Caldwell**_
+#### By _Curt Caldwell**_
 
 ## Description
 
-_Program will give user options of 5 movies.
-Program will give user options of ticket types(matinee, evening, youth, senior, adult).
-Programs will give user options of movie times.
-Program will give user option of date._
+_Program will give user options of pizza size
+Program will give user options of what type of toppings.
+Programs will give user options of pick up or delivery.
+Program will sum the price and tekk you._
 
 ## _Setup/Installation Requirements_
 
@@ -20,7 +20,7 @@ Program will give user option of date._
 
 ## Support and contact details
 
-_For any questions please contact EliotCharette@gmail.com or Curt.Caldwell24@gmail.com_
+_For any questions please contact Curt.Caldwell24@gmail.com_
 
 ## Technologies Used
 
@@ -30,4 +30,4 @@ _HTML, CSS, Bootstrap, Jquery, JavaScript, Atom, Terminal Command._
 
 *Licensed under MIT*
 
-Copyright (c) 2018 **_{Eliot Charette and Curt Caldwell}_**
+Copyright (c) 2018 **_{Curt Caldwell}_**
